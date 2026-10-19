@@ -12,7 +12,7 @@ Install the needed packages with:
 
 ```bash
 pip install "gymnasium[other]" numpy matplotlib
-
+```
 Run Instructions
 Open the Jupyter Notebook included in this repository.
 Run the cell. The code trains the baseline agent, runs the hyperparameter experiments, evaluates the final agent, saves the graphs, and creates a video of the trained agent.
@@ -26,4 +26,4 @@ The code saves these files in the results folder:
 - frozenlake_agent-episode-0.mp4 - video of the final trained agent
 
 The notebook also prints the best configuration, success rates, and average number of steps for the baseline and best agent.
-```
+
